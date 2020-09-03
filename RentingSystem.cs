@@ -12,7 +12,7 @@ namespace VideoRentalStore
    public class RentingSystem
     {
         // SQL Connection objects
-        SqlConnection conn = new SqlConnection("Data Source=DESKTOP-1L71454/SQLExpress;Initial Catalog=RentingSystem;Integrated Security=True");
+        SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-1L71454\SQLEXPRESS;Initial Catalog=RentingSystem;Integrated Security=True");
         SqlDataReader reader;
         SqlCommand cmd = new SqlCommand();
         string query = "";
